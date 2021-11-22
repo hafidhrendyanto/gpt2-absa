@@ -1,5 +1,6 @@
 from transformers import TFAutoModelWithLMHead
-from gpt2absa import restaurant_aspect_categories, laptop_aspect_categories, aspect_polarity_pair
+from gpt2absa.constant import restaurant_aspect_categories, laptop_aspect_categories
+from gpt2absa import aspect_polarity_pair
 
 def inputdomain():
   inp = None

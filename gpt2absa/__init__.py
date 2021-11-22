@@ -1,0 +1,1 @@
+from .module import sentiment_polarity_classification, aspect_polarity_pair
